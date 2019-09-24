@@ -1,0 +1,12 @@
+Box Model
+This was relatively simple to understand, went through margin, padding, and borders. It made it easy to visualize what each property did which was great. The box model is going to be used all the time in the project to create different modules
+
+
+CSS Combinators
+This was a little more difficult to remember. I had trouble rembering the combinators to style different types of siblings. It helped me remember the difference between siblings and descendants and how to style them differently. This will be helpful in the project when styling modules within rows, or different things in or adjacent to modules
+
+CSS Positioning 
+This was the hardest one for me. Z-index was easy but it was difficult to remember which position value was correct for that exercise. This helped in visualizing what each value does and how it positions elements in the page. This will be helpful when formatting my project and creating the layout.
+
+CSS Overflow
+This one was pretty simple to me because I already knew a bit about overflow. It did teach me about the overflow-x property which I didn't know existed. Overflows will be useful in my project to make sure that everything is formatted and laid out correct and nothing overflows into someplace it shouldn't.
