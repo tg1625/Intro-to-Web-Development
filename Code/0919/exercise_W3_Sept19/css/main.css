@@ -1,0 +1,66 @@
+* {box-sizing: border-box;
+}
+
+body{
+  background-color: #e2e2e2;
+  color: black;
+  margin:0;
+}
+
+.container{
+  width:96%;
+  max-width:1440px;
+  margin:auto;
+  background-color: white;
+}
+
+.row{
+  width:100%;
+}
+
+.row > div{
+  padding:1%;
+}
+
+.row::after{
+  content:"";
+  clear:both;
+  display: table;
+}
+
+/* or you can use a class separately for just clearfix and add it to your floats*/
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo{
+  width:30%;
+  background-color:#787CFF;
+  float: left;
+}
+
+.menu{
+  width:70%;
+  background-color:#B76BFF;
+  float:right;
+}
+
+.full_width{
+  width:100%;
+  min-height:400px;
+  float:left;
+  background-color: #6BBEFF;
+}
+
+.quarter{
+  width:25%;
+  /* border-left:10px white solid; */
+  min-height:100px;
+  background-color: #8261E8;
+  float: left;
+}
+
+/* .quarter:first-of-type{border-left:none;} */
