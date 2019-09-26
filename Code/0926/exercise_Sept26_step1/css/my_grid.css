@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 84%;
+  margin:auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0% 0%;
+  padding:1%;
+  min-height: 0.125rem;
+}
+
+
+.col-1 {
+    width: 8.33%;
+
+  }
+
+  .col-2 {
+    width: 16.67%;
+    background-color:rgba(150,0,255,1);
+
+  }
+
+  .col-3 {
+    width: 25%;
+    background-color:rgba(150,0,255,0.9);
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.67%;
+  }
+
+  .col-6 {
+    width: 50%;
+    background-color:rgba(150,0,255,0.8);
+  }
+
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.67%;
+    background-color:rgba(150,0,255,0.7);
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+    background-color:rgba(150,0,255,0.6);
+  }
+
+  .col-11 {
+    width: 91.67%;
+  }
+
+  .col-12 {
+    width: 100%;
+    background-color:rgba(150,0,255,0.5);
+  }
+
+/* This is clearfix, clearing content after each row*/
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
