@@ -1,0 +1,95 @@
+/* TOP STUFF */
+.head{
+  position:relative;
+  top:0;
+  width:100%;
+  min-height:auto;
+  background-image: url('../img/raised-haitian-fist.png');
+  background-size: cover;
+  background-position:top;
+}
+
+.head .head-content{
+  width:100%;
+  padding:250px 0px 250px 0px;
+  text-align:center;
+  color:white;
+}
+
+.head .head-content h1{
+  font-size:5.5em;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  color:white;
+  margin-bottom:5px;
+}
+
+.head .head-content h3{
+  font-size:1.5em;
+  font-weight:lighter;
+  color:white;
+  letter-spacing:1px;
+  text-shadow:1px 1px 40px #eee;
+}
+
+hr{
+  border-color: crimson;
+  border-width: 6px;
+  max-width: 100px;
+  margin-top:0;
+}
+
+.head button{margin-top:20px;}
+
+
+/* ROWS */
+
+.row1{background: linear-gradient(0deg, rgba(85,85,85,1) 0%, rgba(0,0,0,1) 100%);}
+.row2{background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgba(85,85,85,1) 100%);}
+.row3{background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(170,170,170,1)100%);}
+
+
+.col-sm-6 img{
+  width:80%;
+}
+
+.quote-box{
+  width:80%;
+  margin:10%;
+  /* background-color:cornflowerblue; */
+  height:600px;
+  padding:10%;
+  color:white;
+  font-size:2.5em;
+}
+
+.quote-box i{
+  color:crimson;
+  margin-right:5px;
+}
+
+.image-box{
+  width:80%;
+  margin:10%;
+  background-color:cornflowerblue;
+  height:600px;
+  padding:10%;
+}
+
+.image-box img{
+  width:80%;
+}
+
+/* -- 3 Column Row Modules -- */
+
+.box{
+  width:90%;
+  margin:5%;
+  padding:5%;
+  height:600px;
+  background:salmon;
+  text-align:center;
+}
+.box img{
+  margin:0 10% 5% 10%;
+}

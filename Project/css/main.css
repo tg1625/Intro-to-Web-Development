@@ -1,0 +1,53 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700&display=swap');
+
+body{
+  font-family:"Lato", sans-serif;
+}
+
+/*Links*/
+a{ color:crimson;}
+a:hover{color:royalblue;}
+
+/*Headers*/
+h1,h2,h3 {
+  font-family:"Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+/*Buttons*/
+.btn-primary{ background-color: #0069d9;border-color:#0069d9;}
+.btn-primary:hover{background-color: #3737f9;}
+
+/* GLOBAL NAV */
+.navbar{
+  background-color:white;
+  border-bottom:1px solid #ccc;
+}
+
+.navbar-brand{
+  font-family:"Open Sans";
+  font-weight:bold;
+}
+
+.navbar-nav{
+  float:right;
+  text-align:right;
+}
+
+.nav-link{
+  color:black;
+}
+
+
+/*Footer*/
+.foot{
+  padding:5%;
+  background-color:black;
+  color:white;
+}
+
+.foot ul{
+  list-style: none;
+  padding-left:2px;
+}
