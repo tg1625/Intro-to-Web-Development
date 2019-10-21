@@ -1,0 +1,174 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700&display=swap');
+
+body{
+  font-family:"Lato", sans-serif;
+  color:#3b3b3b;
+  margin:0;
+}
+
+/*Links*/
+a{
+  color:#3B3B3B;
+  transition: 0.2s;
+}
+
+p + a, br + a{font-weight: bold;}
+
+p + a::before, br + a::before{
+  content: "➤";
+  display: inline-block;
+  color:#DD183D;
+  margin-right: .255em;
+  /* border-color:#DD183D;
+  margin-right: .255em;
+  border-top: 0.3em solid transparent;
+  border-bottom:0.3em solid transparent;
+  border-right: 0;
+  border-left: 0.3em solid #DD183D; */
+}
+
+/* a:visited{color:#2D4EB0;} */
+
+a:hover{
+  color:#477DDF;
+  text-decoration: none;
+}
+
+p a{
+  font-weight:normal;
+  text-decoration:underline;
+  text-decoration-color:#DD183D;
+}
+
+p a::before{display:none;}
+
+p a:hover{text-decoration: underline;}
+
+/*Headers*/
+h1,h3 {font-family:"Open Sans", sans-serif;}
+
+h1{
+  font-size:2.5rem;
+  text-transform: uppercase;
+  font-weight:normal;
+}
+h1::after{
+	content: "";
+  display: block;
+  margin-left:3px;
+  height: 5px;
+  width: 5rem;
+  background: #dd183d;
+  background-clip: padding-box;
+}
+
+h3{
+  font-weight:bold;
+  font-size:1.75rem;
+
+}
+
+h5{
+  font-size:1.25rem;
+  text-transform:uppercase;
+}
+
+h5::after{
+	content: "";
+  display: block;
+  margin-top:1px;
+  height: 2px;
+  width: 3rem;
+  background: #2d4eb0;
+  background-clip: padding-box;
+}
+
+h6{
+  font-size:1rem;
+  font-weight:bold;
+}
+
+
+
+/*Buttons*/
+.btn{
+  min-width:150px;
+  border-radius:2px;
+  border-width:0px;
+  padding:10px;
+  letter-spacing: 1px;
+}
+
+.btn-primary{
+  background-color: #2d4eb0;
+}
+.btn-primary:hover{
+  background-color: #477ddf;
+}
+
+.btn-secondary{
+  background-color: #DD183D;
+}
+
+.btn-secondary:hover{
+  background-color:#EE7373;
+}
+
+/* GLOBAL NAV */
+.navbar{
+  background-color:#f3f3f3;
+  border-bottom:1px solid #ccc;
+}
+
+.navbar a::before{display:none;}
+
+.navbar .nav-item .active{
+  border-bottom:3px solid #DD183D;
+}
+
+.navbar-brand{
+  font-family:"Open Sans";
+  font-weight:bold;
+  color:#DD183D;
+}
+
+.navbar-nav{
+  float:right;
+  text-align:right;
+}
+
+
+.nav-link{
+  color:black;
+}
+
+
+/*Footer*/
+.foot{
+  padding:3% 5%;
+  background-color:#f3f3f3;
+}
+
+.foot ul{
+  list-style: none;
+  padding-left:0px;
+}
+
+.foot ul li{
+  line-height:2em;
+}
+
+.foot .social h5::after{background:#DD183D;}
+
+.foot .social .icons{
+  width:50%;
+}
+
+.foot .social a{
+  display:inline-block;
+  width:30%;
+
+}
+
+.foot .social i {font-size:2em;letter-spacing:5px;line-height: 2em;}
