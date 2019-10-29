@@ -1,0 +1,81 @@
+header + .container-fluid{
+  margin:50px 0 0 0;
+  padding:0;
+}
+
+/*Outer div for zoom*/
+.row{
+  height:30%;
+  width:100%;
+  margin:0;
+  overflow:hidden;
+}
+
+/*Positioning h1*/
+.row h1{
+  position:absolute;
+  z-index:999;
+  margin:8% 5%;
+  color:white;
+  text-shadow:1px 1px 5px #3b3b3b;
+}
+
+/*Second row H1 has blue underline*/
+.row:nth-child(2) h1::after{background:#2d4eb0; }
+
+/*Overlay for the images*/
+.row1::before, .row2::before, .row3::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(45,78,176, 0.6);
+}
+
+/*Second row has red overlay*/
+.row2::before{
+  background-color: rgba(221,24,61, 0.3);
+}
+
+/*Inner div for background, set grayscale*/
+a.row1, a.row2, a.row3{
+  display:inline-block;
+  height:100%;
+  width:100%;
+  padding:10% 5%;
+  filter:grayscale(100);
+  transition: all 0.7s ease;
+  background-size:cover;
+  background-position:center;
+}
+
+/*Positioning just this image on top b/c i was too lazy to edit the image*/
+a.row3{background-position:top;}
+
+/*Color and zoom in on hover*/
+a.row1:hover, a.row2:hover, a.row3:hover, a.row1:focus, a.row2:focus, a.row3:focus{
+  filter:grayscale(0);
+  transform: scale(1.2) ;
+}
+
+.row1{
+  background-color:pink;
+  background-image: url("../img/houses-pano.png");
+}
+
+.row2{
+  background-color:green;
+  background-image: url("../img/art-pano.png");
+}
+
+.row3{
+  background-color: blue;
+  background-image: url("../img/parade-pano.png");
+}
+
+/*Remove spacing on sides of footer*/
+footer .container-fluid{
+  padding:0;
+}
