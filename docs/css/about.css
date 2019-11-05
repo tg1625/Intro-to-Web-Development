@@ -54,6 +54,12 @@ a.row1, a.row2, a.row3{
 /*Positioning just this image on top b/c i was too lazy to edit the image*/
 a.row3{background-position:top;}
 
+h1:hover + a.row1, h1:hover + a.row2, h1:hover + a.row3  {
+  /*Color and zoom in on hover*/
+  filter:grayscale(0);
+  transform: scale(1.2) ;
+}
+
 /*Color and zoom in on hover*/
 a.row1:hover, a.row2:hover, a.row3:hover, a.row1:focus, a.row2:focus, a.row3:focus{
   filter:grayscale(0);
