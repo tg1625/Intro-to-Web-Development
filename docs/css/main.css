@@ -124,6 +124,7 @@ h6{
 .navbar{
   background-color:#f3f3f3;
   border-bottom:1px solid #ccc;
+  transition:all 0.5s ease-in-out;
 }
 
 .navbar a::before{display:none;}
@@ -144,13 +145,56 @@ h6{
 }
 
 .nav-link{
-  color:black;
+  color:#3b3b3b;
 }
 
 .dropdown:hover .dropdown-menu{
   display:block;
 }
 
+.dropdown-menu{
+  background-color: #f3f3f3;
+  border:none;
+  border-radius: 0px;
+  /* z-index:9999999; */
+}
+
+
+/*Code for different header on index*/
+
+.top{
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.top .nav-link{
+  color:#f3f3f3;
+}
+
+.top .nav-link:hover{color:#477DDF;}
+
+.top button i{color:#f3f3f3;}
+
+.top .dropdown-menu{
+  background-color: transparent;
+  border:none;
+  border-radius: 0px;
+  /* z-index:9999999; */
+}
+
+.top .dropdown-item{color:#f3f3f3;}
+
+.top .dropdown-item:hover{
+  background-color:inherit;
+  color:#477DDF;
+}
+
+
+
+header + .container-fluid, header + .container{
+  margin-top:100px;
+  padding:0;
+}
 
 /*Footer*/
 .foot{

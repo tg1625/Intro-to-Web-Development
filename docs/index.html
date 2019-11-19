@@ -22,11 +22,25 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/5b8bcff7dd.js" crossorigin="anonymous"></script>
 
+  <script>
+  $(function() {
+  $(window).on("scroll", function() {
+      if($(window).scrollTop() > 50) {
+          $(".navbar").removeClass("top");
+      } else {
+          //remove the background property so it comes transparent again (defined in your css)
+         $(".navbar").addClass("top");
+      }
+  });
+});
+
+  </script>
+
 </head>
 <body>
   <!-- GLOBAL NAV -->
   <header>
-    <nav class="navbar navbar-expand-sm fixed-top" id="top">
+    <nav class="navbar navbar-expand-sm fixed-top top" id="top">
       <!-- Brand -->
       <a class="navbar-brand" href="index.html">Haiti Fights Back</a>
       <!-- Toggler/collapsibe Button -->
@@ -42,7 +56,7 @@
               About
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">The Book</a>
+              <a class="dropdown-item" href="book.html">The Book</a>
               <a class="dropdown-item" href="#">The Author</a>
               <a class="dropdown-item" href="#">The History</a>
             </div>

@@ -1,6 +1,5 @@
 header + .container-fluid{
-  margin:50px 0 0 0;
-  padding:0;
+  margin-top:50px;
 }
 
 /*Outer div for zoom*/
