@@ -45,6 +45,10 @@
 
 .head button{margin-top:20px;}
 
+/*Animations*/
+.head .head-content h3.animated{animation-delay:.5s}
+.head .head-content .btn.animated{animation-delay:1s}
+
 
 /* ROWS */
 
@@ -78,6 +82,7 @@
   background-color:#477DDF;
   height:600px;
   padding:10%;
+  visibility:hidden;
 }
 
 .image-box img{
@@ -86,14 +91,23 @@
 
 /* -- 3 Column Row Modules -- */
 
+.row4{
+  margin-bottom: 2em;
+}
+
 .box{
-  width:90%;
-  margin:5%;
-  padding:5%;
-  height:600px;
+  width:100%;
+  /* margin:0% 5%; */
+  /* padding:5%; */
   background:#ee7373;
   text-align:center;
 }
 .box img{
-  margin:0 10% 5% 10%;
+  /* width:100%; */
+  height:60vh;
+  margin-bottom:2em;
+}
+
+.box button{
+  width:100%;
 }

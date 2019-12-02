@@ -56,6 +56,8 @@ h1{
   font-size:2.5rem;
   text-transform: uppercase;
   font-weight:normal;
+  letter-spacing:1px;
+  margin-bottom:20px;
 }
 h1::after{
 	content: "";
@@ -76,6 +78,7 @@ h3{
 h5{
   font-size:1.25rem;
   text-transform:uppercase;
+  letter-spacing:1px;
 }
 
 h5::after{
