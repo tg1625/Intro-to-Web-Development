@@ -196,34 +196,35 @@ h6{
 
 header + .container-fluid, header + .container{
   margin-top:100px;
-  padding:0;
 }
 
+
+
 /*Footer*/
-.foot{
+footer .row{
   padding:3% 5%;
   background-color:#f3f3f3;
 }
 
-.foot ul{
+footer ul{
   list-style: none;
   padding-left:0px;
 }
 
-.foot ul li{
+footer ul li{
   line-height:2em;
 }
 
-.foot .social h5::after{background:#DD183D;}
+footer .social h5::after{background:#DD183D;}
 
-.foot .social .icons{
+footer .social .icons{
   width:50%;
 }
 
-.foot .social a{
+footer .social a{
   display:inline-block;
   width:30%;
 
 }
 
-.foot .social i {font-size:2em;letter-spacing:5px;line-height: 2em;}
+footer .social i {font-size:2em;letter-spacing:5px;line-height: 2em;}

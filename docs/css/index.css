@@ -1,3 +1,6 @@
+header + .container-fluid, header + .container{
+  margin-top:0px;
+}
 /* TOP STUFF */
 .head{
   position:relative;
@@ -52,15 +55,14 @@
 
 /* ROWS */
 
-.row1{background: linear-gradient(0deg, rgba(85,85,85,1) 0%, rgba(0,0,0,1) 100%);}
+.gradL{
+  background: linear-gradient(black 0% ,white 85%);
+}
+
+/* .row1{background: linear-gradient(0deg, rgba(85,85,85,1) 0%, rgba(0,0,0,1) 100%);}
 .row2{background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgba(85,85,85,1) 100%);}
 .row3{background: linear-gradient(0deg, rgba(230,230,230,1) 0%, rgba(170,170,170,1)100%);}
-.row4{background: linear-gradient(0deg, rgba(255,255,255,1) 75%, rgba(230,230,230,1)100%);}
-
-
-.col-sm-6 img{
-  width:80%;
-}
+.row4{background: linear-gradient(0deg, rgba(255,255,255,1) 75%, rgba(230,230,230,1)100%);} */
 
 .quote-box{
   width:80%;
@@ -77,16 +79,15 @@
 }
 
 .image-box{
-  width:80%;
   margin:10%;
+  align-self: flex-end;
   background-color:#477DDF;
   height:600px;
-  padding:10%;
-  visibility:hidden;
+  /* visibility:hidden */
 }
 
 .image-box img{
-  width:80%;
+  height:100%;
 }
 
 /* -- 3 Column Row Modules -- */
@@ -99,8 +100,9 @@
   width:100%;
   /* margin:0% 5%; */
   /* padding:5%; */
-  background:#ee7373;
+  background:#f3f3f3;
   text-align:center;
+  visibility:hidden;
 }
 .box img{
   /* width:100%; */
@@ -110,4 +112,8 @@
 
 .box button{
   width:100%;
+}
+
+.box:hover img{
+  transform: scale(1.2);
 }

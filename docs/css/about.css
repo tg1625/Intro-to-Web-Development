@@ -1,26 +1,28 @@
 header + .container-fluid{
   margin-top:50px;
+  padding:0;
 }
 
 /*Outer div for zoom*/
-.row{
-  height:30%;
+.link{
+  height:32vh;
   width:100%;
   margin:0;
   overflow:hidden;
 }
 
 /*Positioning h1*/
-.row h1{
+.link h1{
+  align-self: center;
   position:absolute;
   z-index:999;
-  margin:8% 5%;
+  margin-left:5%;
   color:white;
   text-shadow:1px 1px 5px #3b3b3b;
 }
 
 /*Second row H1 has blue underline*/
-.row:nth-child(2) h1::after{background:#2d4eb0; }
+.link:nth-child(2) h1::after{background:#2d4eb0; }
 
 /*Overlay for the images*/
 .row1::before, .row2::before, .row3::before{
@@ -78,9 +80,4 @@ a.row1:hover, a.row2:hover, a.row3:hover, a.row1:focus, a.row2:focus, a.row3:foc
 .row3{
   background-color: blue;
   background-image: url("../img/parade-pano.png");
-}
-
-/*Remove spacing on sides of footer*/
-footer .container-fluid{
-  padding:0;
 }
