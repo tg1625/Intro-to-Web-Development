@@ -1,0 +1,25 @@
+.sidebar img{
+  width:100%;
+}
+
+form{
+  /* padding:0 2%; */
+  margin-left: 5%;
+  margin-bottom:20px;
+}
+
+
+label{font-weight: bold;}
+input[type=text], select, textarea {
+  width:100%;
+  padding:2%;
+  background:#f3f3f3;
+  margin-top:5px;
+  margin-bottom:5px;
+  border:1px solid #ccc;
+  resize:vertical;
+}
+
+textarea{height:100px;}
+
+button{width:100%;}

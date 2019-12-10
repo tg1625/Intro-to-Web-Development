@@ -1,0 +1,38 @@
+.bookImg{
+  /* background-color:red; */
+  padding-left: 0;
+  /* align-items: center;
+  align-content: center; */
+}
+.bookImg img{
+  width:100%;
+}
+
+
+.info{
+  background:#f3f3f3;
+  padding:2%;
+}
+
+.row{margin-bottom:20px;}
+
+.modal{
+  position:absolute;
+  background: rgba(0, 0, 0, 0.75);
+  /* display:block; */
+}
+
+.linkbox{
+  width:50vw;
+  height:40vh;
+  padding:2%;
+  background:#fff;
+  position:absolute;
+  top:30vh;
+  left:25vw;
+}
+
+.linkbox button{
+  width:100%;
+  margin-bottom:5px;
+}

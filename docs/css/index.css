@@ -65,11 +65,14 @@ header + .container-fluid, header + .container{
 .row4{background: linear-gradient(0deg, rgba(255,255,255,1) 75%, rgba(230,230,230,1)100%);} */
 
 .quote-box{
-  width:80%;
   margin:10%;
-  height:600px;
+  height:80vh;
   padding:10%;
   color:#f3f3f3;
+  /* background:red; */
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
   font-size:2.5em;
 }
 
@@ -79,16 +82,20 @@ header + .container-fluid, header + .container{
 }
 
 .image-box{
-  margin:10%;
+  margin:10% 0 10% 10%;
   align-self: flex-end;
-  background-color:#477DDF;
-  height:600px;
-  /* visibility:hidden */
+  /* background-color:#477DDF; */
+  height:80vh;
+  visibility:hidden;
+  /* text-align:left; */
 }
 
 .image-box img{
   height:100%;
 }
+
+.left{text-align:center;}
+.right{text-align: left;}
 
 /* -- 3 Column Row Modules -- */
 

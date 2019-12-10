@@ -13,7 +13,7 @@
   <!-- STYLING -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet" href="css/main.css">
-  <link type="text/css" rel="stylesheet" href="css/book.css">
+  <link type="text/css" rel="stylesheet" href="css/contact.css">
 
 
   <!-- SCRIPTS -->
@@ -62,7 +62,28 @@
   </header>
   <!-- CONTENT -->
   <div class="container">
-
+    <div class="row">
+      <div class="col-md-4 sidebar">
+        <h1>Contact</h1>
+        <p>
+          Please feel free to reach out with any questions/comments/concerns, we're always looking forward to hearing from you!
+        </p>
+        <img src="img/kakos.jpg" alt="kakos" />
+      </div>
+      <div class="col-md-8">
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What this is about" />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+        </form>
+      </div>
+    </div>
   </div>
   <!-- FOOTER -->
   <footer>

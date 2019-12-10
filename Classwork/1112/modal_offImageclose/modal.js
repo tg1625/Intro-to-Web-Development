@@ -45,10 +45,10 @@ window.onclick = function(event) {
 document.getElementById("my_modal").onclick = doStuff;
 
 function doStuff() {
-  //console.log("clickedinside");
-  //console.log("nodeName  "+event.target.nodeName); // nodeName is element name
-  //console.log("className  "+event.target.className); // class is element name
-  //console.log("id  "+event.target.id);//id of the target
+  console.log("clickedinside");
+  console.log("nodeName  "+event.target.nodeName); // nodeName is element name
+  console.log("className  "+event.target.className); // class is element name
+  console.log("id  "+event.target.id);//id of the target
 
   if(event.target == img){
     console.log("dont close it!");
